@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Now, apply the font to your navigation or the entire app */
+body, button, input, textarea {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Additional styling for the navigation component */
+.app-name, li, .profile-button {
+  font-family: 'Nunito', sans-serif;
+}

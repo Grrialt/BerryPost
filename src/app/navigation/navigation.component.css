@@ -1,0 +1,84 @@
+:root {
+  /* Doesn't work... */
+  --primary-color: #5fbcf5;
+  --hover-bg-color: #5fbcf519;
+  --font-weight-bold: bold;
+  --font-size-lg: 24px;
+  --font-size-md: 18px;
+  --border-radius: 30px;
+  --transition-speed: 0.2s;
+}
+
+/* -------------Logo------------- */
+.nav-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.app-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5fbcf5;
+}
+
+/* -------------Navigation list------------- */
+
+.nav-container {
+  width: 240px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  color: #5fbcf5;
+  border-radius: 30px;
+  transition: background-color 0.2s;
+}
+
+li:hover {
+  background-color: #5fbcf519;
+}
+
+li.active {
+  color: #ffffff;
+  background-color: #5fbcf5;
+}
+
+/* -------------My Profile Button------------- */
+
+.profile-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5fbcf5;
+  background-color: transparent;
+  border: 2px solid #5fbcf5;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.profile-button:hover {
+  color: #ffffff;
+  background-color: #5fbcf5;
+}
+

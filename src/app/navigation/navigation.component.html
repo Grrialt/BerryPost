@@ -1,0 +1,13 @@
+<div class="nav-header">
+  <img src="../../assets/raspberry.png" alt="App Logo" class="app-logo"/>
+  <span class="app-name">Berry</span>
+</div>
+
+<div class="nav-container">
+  <ul>
+    <li *ngFor="let tab of tabs" [class.active]="selectedTab === tab" (click)="selectTab(tab)">
+      {{ tab }}
+    </li>
+  </ul>
+  <button class="profile-button">My Profile</button>
+</div>
